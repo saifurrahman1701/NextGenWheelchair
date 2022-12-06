@@ -8,7 +8,7 @@
     <!-- theme meta -->
     <meta name="theme-name" content="quixlab" />
 
-    <title>NextGen Wheelchair - Welcome</title>
+    <title>EEG Control</title>
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png" />
     <!-- Pignose Calender -->
@@ -254,12 +254,43 @@
         <!-- #/ container -->
         <div class="container-fluid mt-3">
           <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-6">
               <div class="card">
                 <div class="card-body">
-                  <!-- <h4 class="card-title">Area Chart</h4> -->
+                  <h4 class="card-title">EEG Signals</h4>
+                  <!-- <div class="bootstrap-carousel"> -->
+                  <!-- <div class="carousel slide" data-ride="carousel"> -->
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img
+                        class="d-block w-100"
+                        src="images/eegplot2.png"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <!-- </div> -->
+                  <!-- </div> -->
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="card">
+                <div class="card-body">
+                  <h2 class="card-title">Brain Signal Status</h2>
+                  <div>
+                    <h6>Attention Level:</h6>
+                    <div class="progress mb-3" style="height: 25px">
+                      <div class="progress-bar bg-success" style="width: 85%;" role="progressbar">85%</div>
+                    </div>
+                  </div>
 
-                  <div id="extra-area-chart"></div>
+                  <div>
+                    <h6>Command: </h6>
+                    <img src="images/arrow-right-active.png" alt=""> 
+                  </div>
+
+                  </div>
                 </div>
               </div>
             </div>
